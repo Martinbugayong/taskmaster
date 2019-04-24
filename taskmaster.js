@@ -4,18 +4,18 @@ var buttonElement = document.getElementById("addBtn");
 var taskTitle = document.getElementById("taskTitle");
 var taskDesc = document.getElementById("taskDesc");
 
-// state
+// "state"
 var tasks = [
     {
-        title: "task1",
+        title: "task1" + " ",
         description: "desc1",
     },
     {
-        title: "task2",
+        title: "task2" + " ",
         description: "desc2",
     },
     {
-        title: "task3",
+        title: "task3" + " ",
         description: "desc3",
     }
 ]
