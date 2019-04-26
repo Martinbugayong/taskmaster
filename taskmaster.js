@@ -23,10 +23,10 @@ var render = function () {
             checkbox.type = "checkbox";
         var titlenode = document.createTextNode(tasks[i].title + " | "); 
         var descnode = document.createTextNode(tasks[i].description); 
+        node.appendChild(checkbox)
         node.appendChild(titlenode) 
         node.appendChild(descnode)
         //node.appendChild(delBtn)
-        node.appendChild(checkbox)
         container.appendChild(node) 
     }
 }
