@@ -58,7 +58,6 @@ var makeid = function (length) {
     text += possible.charAt(Math.floor(Math.random() * possible.length));
     return text;
 }
-console.log(makeid)
 
 // event Listiners
 addBtn.addEventListener("click", addTask)
