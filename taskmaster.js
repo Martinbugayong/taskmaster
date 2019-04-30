@@ -9,7 +9,7 @@ var tasks = [
     {
         title: "Example Task Title",
         description: "This is the decription, Check the checkbox when the task is done",
-        // id: makeid(6)
+        id: makeid(6)
     }
 ]
 
@@ -53,7 +53,6 @@ var addTask = function () {
 var makeid = function (length) {
     var text = "";
     var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-
     for (var i = 0; i < length; i++)
     text += possible.charAt(Math.floor(Math.random() * possible.length));
     return text;
